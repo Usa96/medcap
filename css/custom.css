@@ -8,5 +8,7 @@
 :root {
 	--cnvs-themecolor: #112c57;
 	--cnvs-themecolor-rgb: 17, 44, 87;
-	
+	/* --cnvs-body-font: "Inter", sans-serif;
+	--cnvs-primary-font: "Inter", sans-serif;
+	--cnvs-secondary-font: "Playfair Display", serif; */
 }
