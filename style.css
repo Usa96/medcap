@@ -16,6 +16,13 @@
  * Copyright 2011-2023 The Bootstrap Authors
  * Licensed under MIT (https://github.com/twbs/bootstrap/blob/main/LICENSE)
  */
+
+@font-face {
+  font-family: 'Gill Sans Nova';
+  src: url('demos/medical/fonts/Gill_Sans_Nova_for_JL_W01_Lt.woff2') format('woff2'), /* Super Modern Browsers */
+       url('demos/medical/fonts/Gill_Sans_Nova_for_JL_W01_Lt.woff') format('woff'), /* Pretty Modern Browsers */
+}
+
 :root,
 [data-bs-theme=light] {
   --bs-blue: #0d6efd;

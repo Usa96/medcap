@@ -10,8 +10,10 @@
 	<!-- Font Imports -->
 	<link rel="preconnect" href="https://fonts.googleapis.com">
 	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
 	
+	<link href="https://db.onlinewebfonts.com/c/5e8964a3ad15aac170f1c13c0e3afeba?family=Gill+Sans+WGL" rel="stylesheet">
+
 	<!-- Core Style -->
 	<link rel="stylesheet" href="style.css">
 
@@ -67,15 +69,15 @@
 						<nav class="primary-menu style-3 menu-spacing-margin">
 
 							<ul class="menu-container">
-								<li class="menu-item current"><a class="menu-link" href=" index.html"><div>Home</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="about-us.html"><div>About Us</div></a></li>
-								<li class="menu-item"><a class="menu-link" href="medical-departments.html"><div>Departments</div></a></li>
+								<li class="menu-item"><a class="menu-link" href="Specialities.html"><div>Specialities</div></a></li>
 								<li class="menu-item"><a class="menu-link" href="medical-doctors.html"><div>Doctors</div></a>
 									<ul class="sub-menu-container">
 										<li class="menu-item"><a class="menu-link" href="medical-doctors-lists.html"><div>2 columns - List style</div></a></li>
 										<li class="menu-item"><a class="menu-link" href="medical-doctors-3.html"><div>3 columns</div></a></li>
 										<li class="menu-item"><a class="menu-link" href="medical-doctors.html"><div>4 columns</div></a></li>
 									</ul>
+								<li class="menu-item"><a class="menu-link" href="media.html"><div>News</div></a></li>
 								</li>
 								<li class="menu-item"><a class="menu-link" href="contact.html"><div>Contact</div></a></li>
 								<a href="#" class="button button-border button-rounded"><i class="bi-boxes"></i>Patient Login</a>
@@ -114,7 +116,7 @@
 									</div>
 								</div>
 							</div>
-							<div class="swiper-slide-bg" style="background-image: url('demos/medical/images/slider/2.jpg');"></div>
+							<div class="swiper-slide-bg" style="background-image: url('demos/medical/images/slider/3.jpg');"></div>
 						</div>
 					</div>
 				</div>
@@ -129,107 +131,83 @@
 					<div class="fancy-title title-border title-center">
 						<h2>About us</h2>
 					</div>
-						<span>Show off Different Elements with a Different Touch.</span>
+						<span>Contrary to popular belief, Lorem Ipsum is not simply random text. It has roots in a piece of classical Latin literature from 45 BC, making it over 2000 years old. Richard McClintock, a Latin professor at Hampden-Sydney College in Virginia, looked up one of the more obscure Latin words, consectetur, from a Lorem Ipsum passage, and going through the cites of the word in classical literature, discovered the undoubtable source. Lorem Ipsum comes from sections 1.10.32 and 1.10.33 of "de Finibus Bonorum et Malorum" (The Extremes of Good and Evil) by Cicero, written in 45 BC. This book is a treatise on the theory of ethics, very popular during the Renaissance. The first line of Lorem Ipsum, "Lorem ipsum dolor sit amet..", comes from a line in section 1.10.32</span>
 					</div>
 				</div>
+				
 				<div class="container">
-					<div class="fancy-title title-border title-center">
-						<h2>Our Services</h2>
-					</div>
-					<div class="row col-mb-50 mb-0">
-						<div class="row">
-							<div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
-							  <a href="#">
-								<img alt="100%x180" src="demos/medical/images/200x200.gif" class="img-thumbnail w-100 d-block">
-							  </a>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
-							  <a href="#">
-								<img alt="100%x180" src="demos/medical/images/200x200.gif" class="img-thumbnail w-100 d-block">
-							  </a>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
-							  <a href="#">
-								<img alt="100%x180" src="demos/medical/images/200x200.gif" class="img-thumbnail w-100 d-block">
-							  </a>
-							</div>
-							<div class="col-12 col-sm-6 col-lg-3 mb-3 mb-lg-0">
-							  <a href="#">
-								<img alt="100%x180" src="demos/medical/images/200x200.gif" class="img-thumbnail w-100 d-block">
-							  </a>
-							</div>
-						  </div>
+
+					<div class="fancy-title title-center title-border">
+						<h3>Our Services</h3>
 					</div>
 
-				</div>
-
-				<div class="section row p-0 align-items-stretch dark mt-4">
-					<div class="col-lg-5" style="background: url('demos/medical/images/section-bg.jpg') center center no-repeat; background-size: cover; min-height: 250px;">
-						<div>&nbsp;</div>
-					</div>
-					<div id="booking-appointment-form" class="col-lg-7 p-0">
-						<div class="bg-color form-widget col-padding" data-loader="button">
-							<h2>Book an Appointment.</h2>
-							<div class="form-result"></div>
-							<form class="row mb-0" id="template-medical-form" name="template-medical-form" action="include/form.php" method="post">
-								<div class="form-process">
-									<div class="css3-spinner">
-										<div class="css3-spinner-scaler"></div>
-									</div>
-								</div>
-								<div class="col-md-8 form-group">
-									<label for="template-medical-name">Name:</label>
-									<input type="text" id="template-medical-name" name="template-medical-name" class="form-control not-dark required" value="">
-								</div>
-								<div class="col-md-4 form-group">
-									<label for="template-medical-phone">Phone:</label>
-									<input type="text" id="template-medical-phone" name="template-medical-phone" class="form-control not-dark required" value="">
-								</div>
-								<div class="w-100"></div>
-								<div class="col-md-8 form-group">
-									<label for="template-medical-email">Email Address:</label>
-									<input type="email" id="template-medical-email" name="template-medical-email" class="form-control not-dark required" value="">
-								</div>
-								<div class="col-md-4 form-group">
-									<label for="template-medical-dob">Date of Birth:</label>
-									<input type="text" id="template-medical-dob" name="template-medical-dob" class="form-control not-dark required" value="" placeholder="DD/MM/YYYY">
-								</div>
-								<div class="w-100"></div>
-								<div class="col-md-5">
-									<div class="row">
-										<div class="col-12 form-group">
-											<label for="template-medical-appoint-date">Appointment Date:</label>
-											<input type="text" id="template-medical-appoint-date" name="template-medical-appoint-date" class="form-control not-dark required" value="" placeholder="DD/MM/YYYY">
-										</div>
-										<div class="col-12 form-group">
-											<label for="template-medical-second-booking">Booked with us Before?</label><br>
-											<label class="me-4">
-												<input type="radio" id="template-medical-second-booking" name="template-medical-second-booking" value="yes">
-												Yes
-											</label>
-											<label>
-												<input type="radio" name="template-medical-second-booking" value="no" checked>
-												No
-											</label>
-										</div>
-									</div>
-								</div>
-								<div class="col-md-7 form-group">
-									<label for="template-medical-message">Message:</label>
-									<textarea id="template-medical-message" name="template-medical-message" class="form-control not-dark required" cols="30" rows="5"></textarea>
-								</div>
-								<div class="w-100"></div>
-								<div class="col-12 form-group d-none">
-									<input type="text" name="template-medical-botcheck" value="">
-								</div>
-								<div class="col-12 form-group text-end">
-									<button class="button button-white button-light button-rounded m-0" type="submit" value="submit">Confirm Booking</button>
-								</div>
-								<input type="hidden" name="prefix" value="template-medical-">
-							</form>
-
+					<div id="oc-images" class="owl-carousel image-carousel carousel-widget mb-6" data-items-xs="2" data-items-sm="3" data-items-lg="4" data-items-xl="5">
+						<div class="oc-item">
+							<a href="#"><img src="demos/medical/images/services/ortho_ser.jpg" alt="Orthopaedics MEDCAP"></a>
+							<div class="portfolio desc mt-4"> <h5> Orthopaedics</h5></div>
+						</div>
+						<div class="oc-item">
+							<a href="#"><img src="demos/medical/images/services/physic_ther.jpg" alt="Physiotherapy MEDCAP"></a>
+							<div class="portfolio desc mt-4"> <h5> Physiotherapy</h5></div>
+						</div>
+						<div class="oc-item">
+							<a href="#"><img src="demos/medical/images/services/radiology.jpg" alt="Radiology MEDCAP"></a>
+							<div class="portfolio desc mt-4"> <h5> Radiology</h5></div>
+						</div>
+						<div class="oc-item">
+							<a href="#"><img src="demos/medical/images/services/diet.jpg" alt="Dietetics Center MEDCAP"></a>
+							<div class="portfolio desc mt-4"> <h5> Dietetics</h5></div>
+						</div>
+						<div class="oc-item">
+							<a href="#"><img src="demos/medical/images/services/home_healthcare.jpg" alt="Home Healthcare MEDCAP"></a>
+							<div class="portfolio desc mt-4"> <h5> Home Healthcare</h5></div>
+						</div>
+						<div class="oc-item">
+							<a href="#"><img src="demos/medical/images/services/telemedicine.jpg" alt="Tele-medicine MEDCAP"></a>
+							<div class="portfolio desc mt-4"> <h5> Tele-medicine</h5></div>
+						</div>
+						<div class="oc-item">
+							<a href="#"><img src="demos/medical/images/services/occupational_therapy.jpg" alt="Occupational Therapy MEDCAP"></a>
+							<div class="portfolio desc mt-4"> <h5> Occupational Therapy</h5></div>
+						</div>
+						<div class="oc-item">
+							<a href="#"><img src="demos/medical/images/services/ant_age_regen_cardio.jpg" alt="Anti Ageing, Regnerative medicine &amp; Cardiology"></a>
+							<div class="portfolio desc mt-4"> <h5> Anti Ageing</h5></div>
 						</div>
 					</div>
+
+				</div>
+
+				<div class="row align-items-stretch mt-6 mb-6">
+
+					<div class="col-lg-6 text-center col-padding" style="background: url('demos/medical/images/offers_packages.jpg') center center no-repeat; background-size: cover;">
+						<div>&nbsp;</div>
+					</div>
+
+					<div class="col-lg-6 text-center col-padding bg-contrast-100">
+						<div>
+							<div class="heading-block border-bottom-0">
+								<!-- <span class="before-heading color">Easily Understandable &amp; Customizable.</span> -->
+								<h3>Offers &amp; Packages</h3>
+							</div>
+							<p class="lead mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+						</div>
+					</div>
+
+					<div class="col-lg-6 text-center col-padding bg-contrast-100">
+						<div>
+							<div class="heading-block border-bottom-0">
+								<h3>Health Checkups</h3>
+							</div>
+							<p class="lead mb-0">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum</p>
+						</div>
+					</div>
+
+					<div class="col-lg-6 text-center col-padding" style="background: url('demos/medical/images/health_checkups.jpg') center center no-repeat; background-size: cover;">
+						<div>&nbsp;</div>
+					</div>
+
+
 				</div>
 
 				<!-- <div class="section mt-0">
@@ -291,8 +269,8 @@
 					</div>
 				</div> -->
 
-				<div class="container">
-					<div class="heading-block text-center border-bottom-0">
+				<div class="container mb-4">
+					<div class="heading-block text-center border-bottom-4">
 						<h3>Meet our Team of Specialists<span>.</span></h3>
 						<span>We make sure that your Life are in Good Hands.</span>
 					</div>
@@ -374,6 +352,85 @@
 					</div>
 
 				</div>
+
+				<div class="section mt-0 border-top-0 mb-6">
+					<div class="container">
+						<div class="heading-block text-center m-0">
+							<h3>Latest News</h3>
+						</div>
+					</div>
+				</div>
+
+				<div class="container">
+					<div class="row posts-md col-mb-30 mb-6">
+
+						<div class="col-lg-3 col-md-6">
+							<div class="entry">
+								<div class="entry-image">
+									<a href="#"><img src="demos/medical/images/200x200.gif" alt="Image" class="rounded"></a>
+								</div>
+								<div class="entry-title title-xs text-transform-none px-2">
+									<h3><a href="blog-single.html">Bloomberg smart cities; change-makers economic security</a></h3>
+								</div>
+								<div class="entry-meta px-2">
+									<ul>
+										<li><i class="uil uil-schedule"></i> 13th Jun 2021</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6">
+							<div class="entry">
+								<div class="entry-image">
+									<a href="#"><img src="demos/medical/images/200x200.gif" alt="Image" class="rounded"></a>
+								</div>
+								<div class="entry-title title-xs text-transform-none px-2">
+									<h3><a href="blog-single.html">Medicine new approaches communities, outcomes partnership</a></h3>
+								</div>
+								<div class="entry-meta px-2">
+									<ul>
+										<li><i class="uil uil-schedule"></i> 24th Feb 2021</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6">
+							<div class="entry">
+								<div class="entry-image">
+									<a href="#"><img src="demos/medical/images/200x200.gif" alt="Image" class="rounded"></a>
+								</div>
+								<div class="entry-title title-xs text-transform-none px-2">
+									<h3><a href="blog-single.html">Significant altruism planned giving insurmountable challenges liberal</a></h3>
+								</div>
+								<div class="entry-meta px-2">
+									<ul>
+										<li><i class="uil uil-schedule"></i> 30th Dec 2021</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-3 col-md-6">
+							<div class="entry">
+								<div class="entry-image">
+									<a href="#"><img src="demos/medical/images/200x200.gif" alt="Image" class="rounded"></a>
+								</div>
+								<div class="entry-title title-xs text-transform-none px-2">
+									<h3><a href="blog-single.html">Compassion conflict resolution, progressive; tackle</a></h3>
+								</div>
+								<div class="entry-meta px-2">
+									<ul>
+										<li><i class="uil uil-schedule"></i> 15th Jan 2021</li>
+									</ul>
+								</div>
+							</div>
+						</div>
+
+					</div>
+				</div>
+
 			</div>
 		</section><!-- #content end -->
 
@@ -431,12 +488,26 @@
 					</div>
 				<div class="widget subscribe-widget">
 					<div class="row col-mb-30">
-						<div class="col-6">
-						<a href="#" class="social-icon bg-contrast-200 h-bg-facebook mb-0 me-3">
-							<i class="fa-brands fa-facebook-f"></i>
-							<i class="fa-brands fa-facebook-f"></i>
+						<div class="col-4">
+						<a href="#" class="social-icon h-bg-linkedin">
+							<i class="fa-brands fa-linkedin"></i>
+							<i class="fa-brands fa-linkedin"></i>
 						</a>
-						<a href="#"><small class="d-block"><strong>Like us</strong><br>on Facebook</small></a>
+						<a href="#"><small class="d-block"><strong>Connect with us</strong><br></small></a>
+						</div>
+						<div class="col-4">
+							<a href="#" class="social-icon h-bg-x-twitter">
+								<i class="fa-brands fa-x-twitter"></i>
+								<i class="fa-brands fa-x-twitter"></i>
+							</a>
+							<a href="#"><small class="d-block"><strong>Follow us</strong><br></small></a>
+						</div>
+						<div class="col-4">
+							<a href="#" class="social-icon h-bg-instagram">
+								<i class="bi-instagram"></i>
+								<i class="bi-instagram"></i>
+							</a>
+							<a href="#"><small class="d-block"><strong>Follow us</strong><br></small></a>
 						</div>
 						<div class="col-6">
 						<a href="#" class="social-icon bg-contrast-200 h-bg-rss mb-0 me-3">
