@@ -12,4 +12,8 @@
     --cnvs-body-font: 'Gill Sans Nova', "Inter", sans-serif;
     --cnvs-primary-font: 'Gill Sans Nova', "Inter", sans-serif;
     --cnvs-secondary-font: 'Playfair Display', serif;
+	--cnvs-font-size-body: 3vh;
+	p {
+		font-size: 1rem;
+	}
 }
