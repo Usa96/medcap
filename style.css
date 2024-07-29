@@ -13494,7 +13494,7 @@ textarea.form-control-lg {
   --cnvs-font-size-h2:	2.75rem;
   --cnvs-font-size-h3:	2.5rem;
   --cnvs-font-size-h4:	2.25rem;
-  --cnvs-font-size-h5:	2rem;
+  --cnvs-font-size-h5:	1.5rem;
   --cnvs-font-size-h6:	1.5rem;
   --cnvs-font-size-small:	calc(var(--cnvs-font-size-body) * 0.875);
 }
