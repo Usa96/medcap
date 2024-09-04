@@ -8,7 +8,7 @@
 :root {
 	--cnvs-themecolor: #112c57;
 	--cnvs-themecolor-rgb: 17, 44, 87;
-	--cnvs-header-height: 8rem;
+	--cnvs-header-height: 4rem;
     --cnvs-body-font: 'Gill Sans Nova', "Inter", sans-serif;
     --cnvs-primary-font: 'Gill Sans Nova', "Inter", sans-serif;
     --cnvs-secondary-font: 'Playfair Display', serif;

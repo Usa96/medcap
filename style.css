@@ -17570,6 +17570,8 @@ body:not(.is-expanded-menu):not(.primary-menu-open) .semi-transparent.transparen
 }
 #logo a .logo-default {
   display: flex;
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
 }
 #logo img {
   display: block;
