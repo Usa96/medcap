@@ -33574,3 +33574,15 @@ body.dark {
 p {
   text-align: justify;
 }
+
+.section-image {
+  width: 100%; /* Ensures the image takes up the full width of the container */
+  max-height: 500px; /* Set a maximum height to match the first image */
+  overflow: hidden; /* Ensures any overflow is hidden */
+}
+
+.section-image img {
+  width: 100%; /* Make sure the image covers the entire width */
+  height: auto; /* Keep aspect ratio */
+  object-fit: cover; /* Ensure the image fills the area without distortion */
+}
