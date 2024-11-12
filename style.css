@@ -33586,3 +33586,7 @@ p {
   height: auto; /* Keep aspect ratio */
   object-fit: cover; /* Ensure the image fills the area without distortion */
 }
+
+.bg-offwhite {
+	background-color: #FFF9F4; /* Off white color */
+}
