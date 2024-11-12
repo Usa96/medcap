@@ -33611,3 +33611,17 @@ p, li {
 .title-blue {
   color: #001F54;
 }
+
+.cnvs-hamburger .cnvs-hamburger-box .cnvs-hamburger-inner {
+  background-color: white;
+}
+
+.cnvs-hamburger .cnvs-hamburger-box .cnvs-hamburger-inner {
+  background-color: white !important;
+}
+
+.cnvs-hamburger .cnvs-hamburger-inner,
+.cnvs-hamburger .cnvs-hamburger-inner::before,
+.cnvs-hamburger .cnvs-hamburger-inner::after {
+    background-color: white !important;
+}
