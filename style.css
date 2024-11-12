@@ -33571,7 +33571,7 @@ body.dark {
 }
 /*# sourceMappingURL=style.css.map */
 
-p {
+p, li {
   text-align: justify;
 }
 
