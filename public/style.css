@@ -24771,7 +24771,7 @@ td.actions {
 .iconlist li {
   position: relative;
   display: flex;
-  flex-wrap: wrap;
+  /* flex-wrap: wrap; */
   align-items: baseline;
   font-size: var(--cnvs-iconlist-size);
 }
